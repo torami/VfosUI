@@ -14,28 +14,24 @@
 	<br />
 	<h3 align="center">This Poc is delevred for Lyon VFos Event</h3>
 	&nbsp&nbsp&nbsp
-	<form action="liste" method="post">
 		<center>
 			<div>
-				<button class="button" type="text" name="button1" value="button1">UltraSonic
-					Settings</button>
-				<button class="button" type="text" name="button2" value="button2">Camera
-					Settings</button>
-				<button class="button" type="text" name="button3" value="button3">Actuator Settings
-					Settings</button>
-				<button class="button" type="text" name="button4" value="button4">Translucide</button>
-								<button class="button" type="text" name="button4" value="button4">Logout</button>
-				
+					<a href="http://localhost:8080/VfosProjectUI/ultrasonic"><button class="button" type="text" name="button1" value="button1">Sensors
+						Settings </button></a>
+					<a href="http://localhost:8080/VfosProjectUI/actuator"><button class="button" type="text" name="button3" value="button3">Actuator
+						Settings </button></a>
+					<a href="http://localhost:8080/VfosProjectUI/appsettings"><button class="button" type="text" name="button4" value="button4">Application
+						Settings</button></a>
+					<button class="button" type="text" name="button4" value="button4">Logout</button>
 			</div>
 		</center>
-	</form>
 	<br />
 	<br />
 	<br />
 
 	<fieldset>
 		<legend>List of UltraSonic Sensor</legend>
-		<br/>
+		<br />
 		<table id="ultrasonic">
 			<tr>
 				<th>SensorID</th>
@@ -82,11 +78,43 @@
 				<td>0.001</td>
 				<td>13</td>
 			</tr>
-			</table>
-			<br>
-			<center><button id="button" style="vertical-align:middle"><span>Add UltraSonic Sensor</span></button>
-</center>
-			<br />
+		</table>
+		<br>
+		<center>
+			<button id="button" style="vertical-align: middle">
+				<span>Add UltraSonic Sensor</span>
+			</button>
+		</center>
+		<br />
 	</fieldset>
+	<br />
+	<br />
+	<br />
+	<fieldset>
+		<legend>List of Cameras</legend>
+		<br />
+		<table id="ultrasonic">
+			<tr>
+				<th>SensorID</th>
+				<th>SensorName</th>
+				<th>Port</th>
+				<th>Resolution</th>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>CameraCanon</td>
+				<td>USB 0.2</td>
+				<td>18 MPX</td>
+			</tr>
+		</table>
+		<br>
+		<center>
+			<button id="button" style="vertical-align: middle">
+				<span>Add Camera</span>
+			</button>
+		</center>
+		<br />
+	</fieldset>
+
 </body>
 </html>

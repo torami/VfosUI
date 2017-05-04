@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Actuator</title>
+<title>Application Settings</title>
 <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -31,42 +31,25 @@
 	<br />
 
 	<fieldset>
-		<legend>List of Actuators</legend>
-		<br />
-		<table id="ultrasonic">
+		<legend>Choose your application</legend>
+		<label> Application name :</label>
+		<select id="liste" name="liste"> APP
+		<option value="QTC">Quality Control</option>
+		<option value="PC">Passenger Counting</option>
+		</select>
+			<br>
+			<br/>
+			<table id="APR TRANSLUCIDE">
 			<tr>
-				<th>ActuatorID</th>
-				<th>ActuatorName</th>
-				<th>ResultPIN</th>
+				<th>Tolerance Interval For Cocentricity (mm)</th>
+				<th>Maximum Tolerated Spot Area(mm)</th>
 			</tr>
 			<tr>
-				<td>1</td>
-				<td>RedLed</td>
-				<td>25</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>GreenLed</td>
-				<td>24</td>
-			</tr>
-			<tr>
-				<td>3</td>
-				<td>YellowLed</td>
-				<td>21</td>
-			</tr>
-			<tr>
-				<td>4</td>
-				<td>BleuLed</td>
-				<td>3</td>
+				<td><input type="text" value="2"></td>
+				<td><input type="text" value="0.1"></td>
 			</tr>
 		</table>
-		<br>
-		<center>
-			<button id="button" style="vertical-align: middle">
-				<span>Add Actuator</span>
-			</button>
-		</center>
-		<br />
 	</fieldset>
-</body>
-</html>
+	</body>
+	</html>
+	

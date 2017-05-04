@@ -15,7 +15,7 @@
 	<br />
 	<h3 align="center">This Poc is delevred for Lyon VFos Event</h3>
 	&nbsp&nbsp&nbsp
-	<form action="liste" method="post">
+	<form action="redirect" method="post">
 		<center>
 			<div>
 				<button class="button" type="text" name="button1" value="button1">UltraSonic
